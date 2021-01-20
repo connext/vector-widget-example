@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setShowModal(true)}>Show Modal</button>
+      <button onClick={() => setShowModal(true)}>Show Widget</button>
       <ConnextModal
         showModal={showModal}
         onClose={() => setShowModal(false)}
